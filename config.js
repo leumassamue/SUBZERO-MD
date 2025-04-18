@@ -28,7 +28,7 @@ module.exports = {
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍,👀,🩸,💀,😅",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
 
@@ -49,5 +49,5 @@ module.exports = {
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ*",  // Bot description
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates?
 };
